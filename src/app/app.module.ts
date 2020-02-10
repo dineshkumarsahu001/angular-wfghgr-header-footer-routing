@@ -10,10 +10,11 @@ import { BlogComponent } from './blog/blog.component';
 import { HelloComponent } from './hello.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { FormsComponent } from './forms/forms.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule , appRoutingModule ],
-  declarations: [ AppComponent, HelloComponent,HeaderComponent,FooterComponent,HomeComponent,BlogComponent ],
+  declarations: [ AppComponent, HelloComponent,HeaderComponent,FooterComponent,HomeComponent,BlogComponent,FormsComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
